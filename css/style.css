@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+ /*css reset*/
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+/*main*/
+        div{outline: 2px solid green;}
+		h1{color:lightred;
+		   font-size:30px;}
+    .wrapper{width:1200px;
+            margin:0 auto;
+            background:blue;
+            padding: 50px 0;}
+    .flex{background: red;
+          display: flex;}
+    .flex1{flex: 0 0 400px;}
+    .flex2{background: lightblue;
+           display: flex;}
+    .flex3{background: yellow;
+           display: flex;}
+    .flex4{background: lightgreen;
+           display: flex;}
+    .flex_left{flex: 0 0 800px;}
+    .flex_right{flex: 0 0 400px;}
+    .flex3_left{flex: 0 0 400px;}
+    .flex3_right{flex: 0 0 800px;}
+    .flex_right_bottom{display: flex;}
+    .flex4_left{flex: 0 0 800px;}
+    .flex4_left_bottom{display: flex;}
+    .flex4_left_bottom_left{flex: 0 0 400px;}
+    .flex4_left_bottom_right{flex: 0 0 400px;}
+    .flex4_left_bottom_left_bottom{display: flex;}
+    .flex4_left_bottom_left_bottom1{flex: 0 0 200px;}
+    .flex4_left_bottom_left_bottom2{flex: 0 0 200px;}
+    .flex4_right{flex: 0 0 400px;}
+	
+	/*float*/
+	.float{background: red;}
+    .float_1{width: 400px;
+             float: left;}
+    .float_2{width: 400px;
+             float: left;}
+    .float_3{width: 400px;
+            float: left;}
+    .float2{background: pink;}
+    .float3{background: lightyellow;}
+    .float4{background: lightblue;}
+    .float2_left{width: 800px;
+				 float: left;}
+    .float2_right{width: 400px;
+				  float: left;}
+    .float3_left{width: 400px;
+				 float: left;}
+    .float3_right{width: 800px;
+				  float: left;}
+    .float3_bottom1{float: left;
+					width: 400px;}
+    .float3_bottom2{float: left;
+					width: 400px;}
+    .float4_left{width: 800px;
+				 float: left;}
+    .float4_bottom_left{width: 400px;
+						float: left;}
+    .float4_bottom_right{width: 400px;
+						 float: left;}
+    .float4_left_bottom1{width: 200px;
+						 float: left;}
+    .float4_left_bottom2{width: 200px;
+						 float: left;}
+    .float4_right{width: 400px;
+				  float: left;}
+	.clearfix:after{content:"";
+					clear:both;
+					display:block;}
